@@ -1,0 +1,249 @@
+h1.T {
+  font-family: "Trirong";
+}
+
+h2 {
+  font-family: "Abel";
+  font-size: xx-large;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#maindiv {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 30px;
+  align-items: center;
+}
+
+.FatehpurSikri {
+  position: relative;
+  padding: 10px;
+  width: 550px;
+  background-image: linear-gradient(
+    160deg,
+    rgba(239, 201, 8, 0.753),
+    rgb(128, 242, 70),
+    rgb(48, 46, 36)
+  );
+  padding: 10px;
+  margin: 110px;
+  border-radius: 40px;
+}
+
+.IndiaGate {
+  position: relative;
+  padding: 20px;
+  width: 550px;
+  background-image: linear-gradient(
+    200deg,
+    rgba(244, 244, 9, 0.659),    
+    rgb(126, 39, 27),
+    rgb(64, 73, 19)
+  );
+  padding: 10px;
+  margin: 30px;
+  margin-top: 60px;
+  border-radius: 35px;
+}
+
+#MysorePalace {
+  position: relative;
+  padding: 20px;
+  width: 550px;
+  background-image: linear-gradient(
+    160deg,
+    rgba(255, 106, 0, 0.753),
+    rgb(241, 217, 80),
+    rgb(184, 140, 74)
+  );
+  padding: 10px;
+  margin: 110px;
+  border-radius: 35px;
+}
+#Jallianwalabagh {
+  position: relative;
+  padding: 20px;
+  width: 550px;
+  background-image: linear-gradient(
+    160deg,
+    rgba(255, 255, 255, 0.753),
+    rgb(42, 54, 56),
+    rgb(39, 170, 50)
+  );
+  padding: 10px;
+  margin: 110px;
+  border-radius: 35px;
+}
+#KonarkSunTemple {
+  position: relative;
+  padding: 20px;
+  width: 550px;
+  padding: 10px;
+  background-image: linear-gradient(
+    160deg,
+    rgba(241, 236, 224, 0.753),
+    rgb(230, 191, 109),
+    rgb(163, 132, 86)
+  );
+  margin: 110px;
+  border-radius: 35px;
+}
+#Humayunstomb {
+  position: relative;
+  padding: 20px;
+  width: 550px;
+  background-image: linear-gradient(
+    160deg,
+    rgba(235, 176, 49, 0.753),
+    rgb(141, 119, 71),
+    rgb(163, 132, 86)
+  );
+  padding: 10px;
+  margin: 110px;
+  color: rgb(0, 0, 0);
+  border-radius: 35px;
+}
+
+#Header {
+  position: relative;
+  top: 0px;
+  text-shadow: 100px;
+  background-image: linear-gradient(
+    120deg,
+    rgba(30, 153, 241, 0.952),
+    rgb(15, 35, 50),
+    rgb(7, 33, 33)
+  );
+  width: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: larger;
+  padding: 10px;
+}
+
+body {
+  background-image: url("bg1.jpg");
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size:  100%;
+
+
+
+}
+#Footer {
+  width: 40%;
+  left: 30%;
+  position: relative;
+  bottom: 0px;
+  border-radius: 20px;
+  background-color: rgb(36, 94, 83);
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size:20px;
+}
+
+.ind-p {
+  text-align: left;
+  font-family: "Encode Sans";
+  margin-left: 10px;
+  padding: 10px;
+  
+}
+.fateh-p {
+  text-align: left;
+  font-family: "Encode Sans";
+  margin-left: 10px;
+  padding: 10px;
+}
+.mysore-p {
+  text-align: left;
+  font-family: "Encode Sans";
+  margin-left: 10px;
+  padding: 10px;
+}
+.konark-p {
+  text-align: left;
+  font-family: "Encode Sans";
+  margin-left: 10px;
+  padding: 10px;
+}
+.j-p {
+  text-align: left;
+  font-family: "Encode Sans";
+  margin-left: 10px;
+  padding: 10px;
+}
+.h-p {
+  text-align: left;
+  font-family: "Encode Sans";
+  margin-left: 8px;
+  padding: 10px;
+}
+.ind-img {
+  border-radius: 9px;
+}
+.fateh-img {
+  border-radius: 9px;
+}
+.mysore-img {
+  border-radius: 9px;
+}
+.j-img {
+  border-radius: 9px;
+}
+.konark-img {
+  border-radius: 9px;
+}
+.h-img {
+  border-radius: 9px;
+}
+
+@media only screen and (max-width: 600px) {
+  .IndiaGate {
+    width: 360px;
+  }
+  .ind-img {
+    width: 215px;
+  }
+
+  .FatehpurSikri{
+    width: 360px;
+  }
+  .fateh-img {
+    width: 215px;
+  }
+
+  #MysorePalace {
+    width: 215px;
+  }
+  .mysore-img {
+    width: 215px;
+  }
+
+  #Jallianwalabagh {
+    width: 360px;
+  }
+  .j-img {
+    width: 215px;
+  }
+
+  #KonarkSunTemple {
+    width: 360px;
+  }
+  .konark-img {
+    width: 215px;
+  }
+
+  #Humayunstomb {
+    width: 360px;
+  }
+  .h-img {
+    width: 215px;
+  }
+}
